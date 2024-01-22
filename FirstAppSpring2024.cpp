@@ -1,11 +1,12 @@
-// FirstAppSpring2024.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Joey Tamondong
 
 #include <iostream>
+using namespace std;
+int main(){
 
-int main()
-{
-    std::cout << "Hello World!\n";
+    std::cout << "This is Joey!\n";
+
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
