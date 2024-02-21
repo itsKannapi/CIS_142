@@ -14,7 +14,7 @@ void BankAccount::Withdraw(double w) {
 		cout << "There is not enough money in the Bank account to withdrawl this much!";
 	}
 	else {
-		this->balance = balance - w;
+		this->balance = getBalance() - w;
 	}
 }
 void BankAccount::Deposit(double d) {
@@ -22,7 +22,7 @@ void BankAccount::Deposit(double d) {
 		cout << "The deposit is over 1000, the action could not be performed";
 	}
 	else {
-		this->balance = balance + d;
+		this->balance = getBalance() + d;
 	}
 }
 void BankAccount::SetBalance(double b) {

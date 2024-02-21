@@ -5,10 +5,6 @@ using namespace std;
 class BankAccount
 {
 public:
-
-private:
-	string name;
-	double balance;
 	BankAccount(string, double);
 	BankAccount(string);
 	void Withdraw(double);
@@ -16,5 +12,8 @@ private:
 	void SetBalance(double);
 	string getName();
 	double getBalance();
+private:
+	string name;
+	double balance;
 };
 
